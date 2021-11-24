@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.header button{
+    padding: 1rem;
+}
+
+.container{
+    border: solid blue 1px;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.center{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.drop select {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.order{
+    border: solid green 1px;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.addOrder{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.addOrder h3{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.addOrder select{
+    padding: 1rem;
+}
+
+.addOrder label, .addOrder button {
+    display: block;
+    padding: 1rem;
+}
+
+.searchOrders{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+.searchOrders input, .searchOrders button{
+    padding: 1rem;
+}
+
+.searchError{
+    color: red;
+}
+
